@@ -22,4 +22,4 @@ The following versions of the uYouEnhanced Tweak are currently supported with se
 | ------- | ----------- | -------------------- | ------------- | ------------------ |
 | [latest] | ✅ | ✅ | Stable | Fully functional |
 | [19.06.2-3.0.3 LTS] | ✅ | ✅ | Stable, only provides version 19.06.2 of YouTube and uYou 3.0.3 | Crashes the App if the video is in Fullscreen on an iPad Device. |
-| [16.42.3-2.1 LTS](https://github.com/arichornlover/uYouEnhanced/tree/main-16.42.3LTS) | Depends | 🚫 | iOS 16+ compatibility issues, some features may not work properly. Still supported by Google. | uYou Video/Audio Downloading is offline (except uYouLocal). |
+| [16.42.3-2.1 LTS](https://github.com/arichornlover/uYouEnhanced/tree/main-16.42.3LTS) | Discontinued | ❌ | iOS 16+ compatibility issues, some features may not work properly. App will not work anymore, servers are closed in this version. 💔 | uYou Video/Audio Downloading is offline (except uYouLocal). |

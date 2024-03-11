@@ -16,7 +16,6 @@
 
 <p align="center">
     <a href="https://github.com/arichornlover/uYouEnhanced/releases/latest"><img src="https://custom-icon-badges.demolab.com/github/v/release/arichornlover/uYouEnhanced?logo=youtube&color=%23e81e8a&label=Latest%20Release" alt="Latest Release Badge"></a>
-    <a href="https://github.com/arichornlover/uYouEnhanced/releases/latest"><img src="https://img.shields.io/github/downloads/qnblackcat/uYouPlus/total?color=%23e81e8a&label=Downloads&logo=cloudsmith&logoColor=white" alt="Download Badge"></a>
     <a href="https://github.com/arichornlover/uYouEnhanced/commit"><img src="https://custom-icon-badges.demolab.com/github/last-commit/arichornlover/uYouEnhanced?logo=history&logoColor=white&color=%23e81e8a&label=Last%20Commit" alt="Last Commit Badge"></a>
     <a href="https://github.com/arichornlover/uYouEnhanced/issues"><img src="https://custom-icon-badges.demolab.com/github/issues-raw/arichornlover/uYouEnhanced?logo=issue-opened&logoColor=white&color=%23e81e8a&label=Issues" alt="Issues Badge"></a>
 </p>
@@ -275,20 +274,20 @@
 
 ## Download
 
-- The latest version of **uYouEnhanced** can be found under [Releases](https://github.com/arichornlover/uYouEnhanced/releases/latest).
+- ~The latest version of **uYouEnhanced** can be found under [Releases](https://github.com/arichornlover/uYouEnhanced/releases/latest).~
 - **Compatibility:** Requires iOS/iPadOS 14.0 or later.
 - For AltStore user: 
 
   - My official AltStore repo: https://therealfoxster.github.io/altsource-viewer/view/?source=https://raw.githubusercontent.com/arichornlover/arichornlover.github.io/main/apps.json
 
-  - [Open in AltStore (v19.08.2-3.0.3)](http://tinyurl.com/3cddmzwk) - It will take a while to install because AltStore needs to download the IPA first.
+  - [Open in AltStore (v19.09.4-3.0.3)](https://tinyurl.com/yc6ctbz9) - It will take a while to install because AltStore needs to download the IPA first.
 
 <details>
-  <summary>Version information (last updated: Feb 28, 2024)</summary>
+  <summary>Version information (last updated: Mar 7, 2024)</summary>
 
 | **Tweaks/App** | **Developer** | **Version** | **Open source** |
 | - | - | :-: | :-:  |
-| **YouTube** | Google Inc | 19.08.2 | ✖︎ |
+| **YouTube** | Google Inc | 19.09.4 | ✖︎ |
 | [uYou](https://github.com/MiRO92/uYou-for-YouTube) | [MiRO92](https://twitter.com/miro92) | 3.0.3 | ✖︎ |
 | **Open in YouTube** | [CokePokes](https://github.com/CokePokes) | 1.2 | [✔︎](https://github.com/CokePokes/YoutubeExtensions) |
 | **iSponsorBlock** | [Galactic-Dev](https://github.com/Galactic-Dev) | 1.2.2 | [✔︎](https://github.com/Galactic-Dev/iSponsorBlock) |
@@ -319,7 +318,7 @@
 
 | Developer | Tweak Name and Version | App Version Compatibility | iOS Version Compatibility |
 |-----------|-----------------------|--------------------------|--------------------------|
-| MiRO92 | uYou 2.1 / 2.3~1 | v16.42.3 - 18.01.6 | iOS 13 - iOS 15 |
+| MiRO92 | uYou 2.1 / 2.3~1 | ~v16.42.3~ v17.01.4 - 18.01.6 | iOS 13 - iOS 15 |
 | MiRO92 | uYou 3.0 | v18.06.6 - 18.18.2 | iOS 14 - iOS 15 |
 | MiRO92 | uYou 3.0.1 | v18.19.1 - v18.41.5 | iOS 14 - iOS 17 |
 | MiRO92 | uYou 3.0.2 / 3.0.3 | v19.06.2 - latest | iOS 14 - iOS 17 |

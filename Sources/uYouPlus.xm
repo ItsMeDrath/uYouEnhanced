@@ -570,6 +570,16 @@ static NSString *accessGroupID() {
 }
 %end
 
+// Hide double tap to seek overlay - @arichornlover
+%hook YTInlinePlayerDoubleTapIndicatorView
+- (CGFloat)circleRadius {
+    if (IS_ENABLED(@"hideDoubleTapToSeekOverlay_enabled")) {
+        return 0;
+    }
+    return %orig;
+}
+%end
+
 // Video Controls Overlay Options
 // Hide CC / Hide Autoplay switch / Hide YTMusic Button / Enable Share Button / Enable Save to Playlist Button
 %hook YTMainAppControlsOverlayView
@@ -634,9 +644,11 @@ static NSString *accessGroupID() {
     if (IS_ENABLED(@"disableFullscreenButton_enabled")) {
         if (self.exitFullscreenButton) {
             [self.exitFullscreenButton removeFromSuperview];
+            self.exitFullscreenButton.frame = CGRectZero;
         }
         if (self.enterFullscreenButton) {
             [self.enterFullscreenButton removeFromSuperview];
+            self.enterFullscreenButton.frame = CGRectZero;
         }
         self.fullscreenButtonDisabled = YES;
     }
@@ -1230,9 +1242,6 @@ static BOOL findCell(ASNodeController *nodeController, NSArray <NSString *> *ide
     if (IS_ENABLED(@"hidePreviousAndNextButton_enabled")) {
         %init(gHidePreviousAndNextButton);
     }
-//  if (IS_ENABLED(@"replacePreviousAndNextButton_enabled")) {
-//      %init(gReplacePreviousAndNextButton);
-//  }
     if (IS_ENABLED(@"hideOverlayDarkBackground_enabled")) {
         %init(gHideOverlayDarkBackground);
     }
